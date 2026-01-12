@@ -13,6 +13,12 @@ header{
     background-color: #1D1E1F;
     
 }
+.logo{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
 .container{
     max-width: 1440px;
     width: 100%;
