@@ -1,0 +1,1181 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: #1D1E1F;
+    
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    padding-inline: 135px;
+    margin-inline: auto;
+    
+}
+.padding{
+    padding-inline: 37px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.top-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Contact{
+    padding-block: 18px;
+    padding-inline: 33px;
+    border: 2px solid #3AF96E;
+    border-radius: 50px;
+    color: #3AF96E;
+    background-color: #000000;
+}
+.UK{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #3AF96E;
+    border-radius: 50px; 
+    width: 94px;
+    padding-block: 2px;
+    padding-right: 2px;
+    padding-left: 15px;
+    background-color: transparent;
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 35px;
+    color: white;
+    position: relative;
+}
+.content{
+    background-color: #1D1E1F;
+}
+.charger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    color: white;
+}
+.emoji{
+   
+    p{
+        font-family: "Urbanist", sans-serif;
+          font-weight: 500;
+          font-size: 17px;
+                  display: flex;
+        align-items: center;
+        gap: 10px;
+    
+    }
+}
+.span{
+    color: #3AF96E;
+}
+.first-content{
+    h1{
+          font-family: "Urbanist", sans-serif;
+          font-weight: 600;
+          font-size: 70px;
+          margin-bottom: 10px;
+
+    }
+    h4{
+        font-family: "Urbanist", sans-serif;
+          font-weight: 400;
+          font-size: 30px;
+          margin-bottom: 41px;
+    }
+}
+.button2{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+   
+}
+.shopnow{
+     padding-block: 20px;
+    padding-inline: 52px;
+    border: 2px solid #3AF96E;
+    border-radius: 50px;
+    background-color: #000000;
+    font-family: "Urbanist", sans-serif;
+          font-weight: 600;
+          font-size: 15px;
+          color: #3AF96E;
+}
+.Contactus{
+     padding-block: 20px;
+    padding-inline: 52px;
+    border: 2px solid #3AF96E;
+    border-radius: 50px;
+    background-color: transparent;
+    font-family: "Urbanist", sans-serif;
+          font-weight: 600;
+          font-size: 15px;
+          color: #3AF96E;
+}
+.first-content{
+    width: 530px;
+}
+.span-class{
+    color: #3AF96E;
+    border-bottom: 1px solid;
+}
+.content2{
+    background-color: #002222;
+}
+.background{
+    background-image: url(/Design/FEATURED.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #002222;
+    margin-inline: 40px;
+    padding-bottom: 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 275px);
+    gap: 20px;
+    padding-top: 100px;
+}
+.small-mick{
+       height: 197px;
+    width: 85px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.width{
+    width: 163px;
+    padding-block: 25px;
+    padding-right: 25px;
+}
+.card{
+   display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+        background-color: #1D1E1F;
+    position: relative;
+    border-radius: 15px;
+    h4{
+        font-family: "Urbanist", sans-serif;
+          font-weight: 700;
+          font-size: 15px;
+    }
+    p{
+        font-family: "Urbanist", sans-serif;
+          font-weight: 400;
+          font-size: 12px;
+          padding-top: 4px;
+          padding-bottom: 11px;
+    }
+    
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.adding-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.p-emoji{
+    p{
+        display: flex;
+        align-items: center;
+    }
+}
+.para{
+    width: 580px;
+    color: white;
+    
+    color: white;
+    h1{
+        font-family: "Urbanist", sans-serif;
+          font-weight: 600;
+          font-size: 50px;
+    }
+    p{
+        font-family: "Urbanist", sans-serif;
+          font-weight: 400;
+          font-size: 15px;
+          padding-top: 19px;
+    }
+}
+.middle{
+    background-color: #1D1E1F;
+    padding-block: 100px;
+   
+}
+.mid{
+    background-color: #002222;
+
+}
+.center-mid{
+    padding-top: 90px;
+    padding-bottom: 70px;
+     width: 683px;
+   margin-inline: auto;
+   color: white;
+   
+        p{
+            display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+        }
+        h1{
+            text-align: center;
+             font-family: "Urbanist", sans-serif;
+          font-weight: 600;
+          font-size: 50px;
+        }
+}
+.design-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.mick{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.design-text{
+   padding-left:36px;
+   padding-top: 50px;
+   padding-bottom: 30px;
+   width: 245px;
+
+    h4{
+      font-family: "Urbanist", sans-serif;
+          font-weight: 600;
+          font-size: 30px;
+    }
+    p{
+        font-family: "Urbanist", sans-serif;
+          font-weight: 400;
+          font-size: 12px;
+          padding-top: 5px;
+          padding-bottom: 13px;
+    }
+}
+.add-to-cart{
+    font-family: "Urbanist", sans-serif;
+          font-weight: 600;
+          font-size: 15px;
+          padding-inline: 45px;
+          padding-block: 20px;
+          border-radius: 50px;
+          border: 1px solid #3AF96E;
+          color: #3AF96E;
+          background-color: #101010;
+          margin-top: 61px;
+          margin-bottom: 5px;
+}
+.design{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    row-gap: 162px;
+    
+}
+.deeesign{
+    background-color: #002222;
+}
+.design-card{
+     border: 5px solid #3AF96E;
+    border-radius: 10px;
+    
+    background-color: #1D1E1F;
+    color: white;
+} 
+.foooter{
+    background-color: #1D1E1F;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    justify-content: space-between;
+        padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.images{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.letter{
+     
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: "Urbanist", sans-serif;
+          font-weight: 500;
+          font-size: 17px;
+
+}
+.emoji-text-heading{
+    width: 50%;
+   
+    h1{
+        width: 91%;
+        font-family: "Urbanist", sans-serif;
+          font-weight: 600;
+          font-size: 60px;
+    }
+    p{
+       font-family: "Urbanist", sans-serif;
+          font-weight: 400;
+          font-size: 15px;  
+    }
+}
+.charged{
+    color: #3AF96E;
+}
+label{
+    display: flex;
+    border: 3px solid #3AF96E;
+    border-radius: 50px;
+    overflow: hidden;
+    padding-block: 2px;
+    padding-right: 2px;
+}
+.Email{
+    width: 602px;
+    border: none;
+    padding-left: 40px;
+    background-color: #1D1E1F;
+}
+.subs{
+        width: 50%;
+    
+    height: 100%;
+    padding-block: 20px;
+    border-radius: 50px;
+    border: 1px solid #3AF96E;
+    background-color: #101010;
+    color: #3AF96E
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 9px;
+}
+.shooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    color: white;
+    background-color: #1D1E1F;
+    padding-bottom: 20px;
+}
+.icon-text{
+    width: 40%;
+    p{
+        font-family: "Urbanist", sans-serif;
+          font-weight: 400;
+          font-size: 15px;  
+    }
+}
+.heading-list{
+    h4{
+        margin-bottom: 23px;
+        
+    font-family: "Urbanist", sans-serif;
+          font-weight: 700;
+          font-size: 20px;  
+}
+
+}
+.list{
+    list-style: none;
+    font-family: "Urbanist", sans-serif;
+          font-weight: 600;
+          font-size: 15px;  
+h4{
+    font-family: "Urbanist", sans-serif;
+          font-weight: 700;
+          font-size: 20px;  
+}
+    
+    li:not(:last-child){
+        margin-bottom: 8px;
+    }
+   
+}
+
+ .head-text-list{
+        h4{
+            margin-bottom: 23px;
+             font-family: "Urbanist", sans-serif;
+          font-weight: 700;
+          font-size: 20px; 
+            
+        }
+        p{
+            margin-bottom: 8px;
+            font-family: "Urbanist", sans-serif;
+          font-weight: 600;
+          font-size: 15px; 
+        }
+    }
+.Follow{
+    margin-top: 32px;
+}
+.fooooter{
+    border-bottom: 4px solid #3AF96E;
+    background-color: #1D1E1F;
+}
+.down{
+    padding-block: 24px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+    background-color: #1D1E1F;
+}
+.Aden{
+    color: #3AF96E;
+}
+.icon-back{
+    padding-block: 15px;
+    padding-left: 17px;
+    padding-right: 20px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 100%;
+
+}
+.two-charger{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.first-content{
+    h2{
+        font-family: "Urbanist", sans-serif;
+        font-weight: 600;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+}
+.second-page-head{
+    background-color: #002222;
+    color: white;
+}
+.second-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding-top: 97px;
+   padding-bottom: 119px;
+}
+.left-second-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    h4{
+        font-family: "Jost", sans-serif;
+        font-weight: 500;
+        font-size: 23px;
+    }
+    
+}
+.right-second-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.sort{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid #3AF96E;
+    padding-block: 12px;
+    padding-left: 13px;
+}
+.right-second-page{
+    h4{
+        font-family: "Urbanist", sans-serif;
+        font-weight: 500;
+        font-size: 23px;
+    }
+    p{
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 500;
+        font-size: 23px;
+    }
+}
+.numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+    padding-block: 60px;
+    p{
+        border: 2px solid #3AF96E;
+        padding-inline: 19px;
+        padding-block: 2px;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 600;
+        font-size: 36px;
+    }
+}
+.section-top3{
+    background-color: #002222;
+    color: white;
+}
+.one{
+    color: white;
+    background-color: #3AF96E;
+}
+.top3{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+     padding-block: 70px;
+     gap: 30px;
+}
+.four-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 33px;
+}
+.one-card{
+    width: 660px;
+    height: 587px;
+    padding-bottom: 20px;
+}
+.right-top{
+    h1{
+         font-family: "Urbanist", sans-serif;
+        font-weight: 600;
+        font-size: 50px;
+    }
+    p{
+         font-family: "Urbanist", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+.Price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+.Quantity{
+    padding-bottom: 20px;
+     font-family: "Urbanist", sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+}
+.main-num{
+        display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-block: 13px;
+    padding-inline: 25px;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: max-content;
+    margin-bottom: 30px;
+}
+.Add{
+    padding-inline: 104px;
+    padding-block: 20px;
+    border-radius: 50px;
+    border: 1px solid #3AF96E;
+    color: #3AF96E;
+    background-color: #101010;
+    font-family: "Urbanist", sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+}
+.middle-page3{
+    background-color: #1D1E1F;
+    color: white;
+}
+.Products{
+    color: #3AF96E;
+}
+.head-texting{
+    text-align: center;
+    h1{
+        font-family: "Urbanist", sans-serif;
+        font-weight: 600;
+        font-size: 50px;
+        padding-top: 100px;
+        padding-bottom: 40px;
+        
+    }
+    p{
+         font-family: "Urbanist", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        padding-bottom: 60px;
+    }
+}
+.Explore{
+    
+    border: 1px solid #3AF96E;
+    border-radius: 50px;
+    color: #3AF96E;
+    background-color:#101010 ;
+    padding-block: 20px;
+    padding-inline: 27px;
+    
+}
+.collection{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 82px;
+}
+.Explore-button{
+      border: 1px solid #3AF96E;
+    border-radius: 50px;
+    color: #3AF96E;
+    background-color:#101010 ;
+    padding-block: 20px;
+    padding-inline: 27px;
+    
+}
+.card-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 70px;
+    padding-inline: 163px;
+    position: relative;
+    h1{
+         font-family: "Urbanist", sans-serif;
+        font-weight: 600;
+        font-size: 80px;
+        color: white;
+        margin-right: 22px;
+    }
+}
+.line-button{
+    position: relative;
+    flex-grow: 1;
+}
+.Explore-button::before{
+    border:2px solid #3AF96E ;
+    content: "";
+    position: absolute;
+    z-index: 3;
+      top: 27px;
+    right: 21px;
+    width: 74%;
+
+}
+.Explore-button::after{
+    border:2px solid #3AF96E ;
+    content: "";
+    position: absolute;
+    z-index: 3;
+       top: 27px;
+    left: -26px;
+    width: 3%;
+
+}
+.bari-line::before{
+    width: 59%;
+}
+.bari-line::after{
+left: -26px;
+    width: 5%;
+}
+.line-hi-line::before{
+width: 51%;
+}
+.line-hi-line::after{
+width: 6%;
+}
+
+.Series{
+    position: relative;
+}
+.Series::before{
+     border:2px solid #3AF96E ;
+    content: "";
+    position: absolute;
+    z-index: 3;
+           top: 50px;
+    right: -46px;
+    width: 7%;
+}
+.right-line::before{
+        right: -51px;
+    width: 5%;
+}
+.aik-or-line::before{
+    right: -52px;
+    width: 5%;
+}
+.Navbar{
+    display: none;
+  
+}
+@media(max-width:1440px){
+    .container{
+        max-width: 1280px;
+        padding-inline: 80px;
+    }
+    .padding{
+        padding-inline: 37px;
+    }
+}
+@media(max-width:1280px){
+    .container{
+        max-width: 1024px;
+        padding-inline: 50px;
+    }
+    .first-content{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .design{
+        display: flex;
+       
+    
+    gap: 20px;
+    row-gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .design-card{
+        width: 48%;
+    }
+    .Explore-button::before{
+        width: 65%;
+    }
+    .Explore-button::after{
+            left: -24px;
+    width: 4%;
+    }
+    .bari-line::before{
+    width: 29%;
+    }
+    .bari-line::after{
+        left: -17px;
+        width: 5%;
+    }
+    .line-hi-line::before{
+        width: 33%;
+    }
+    .line-hi-line::after{
+                left: -18px;
+        width: 5%;
+    }
+    
+    .aik-or-line{
+        font-size: 70px !important;
+        
+    }
+    .emoji-text-heading{
+        width: 100%;
+    }
+    .emoji-text-heading{
+        h1{
+            width: 100%;
+            font-size: 50px;
+        }
+    }
+    .Email{
+        width: 425px;
+    }
+    .background{
+            grid-template-columns: repeat(2, 275px);
+    gap: 50px;
+    }
+    .one-card {
+    width: 500px;
+    height: 530px;
+    }
+}
+@media(max-width:1024px){
+    .first-content{
+        h1{
+            font-size: 60px;
+        }
+        h4{
+            font-size: 25px;
+        }
+    }
+    .adding-image{
+        flex-direction: column;
+    }
+    .foot{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .emoji-text-heading{
+        align-items: center;
+        text-align: center;
+        width: 81%;
+        
+        p{
+            justify-content: center;
+        }
+    }
+    .Explore-button::after{
+        display: none;
+    }
+    .Explore-button::before{
+        display: none;
+    }
+    .Series::before{
+        display: none;
+    }
+    .card-line{
+        padding-block: 70px;
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+    .shooter{
+        flex-wrap: wrap;
+    gap: 50px;
+    column-gap: 100px;
+    justify-content: center;
+    }
+    .icon-text{
+        width: 80%;
+        text-align: center;
+    }
+    .Contact{
+        display: none;
+    }
+    .center{
+        display: none;
+    }
+    .charger{
+        flex-direction: column;
+    }
+    .button2{
+        justify-content: center;
+    }
+    .first-content{
+        text-align: center;
+    }
+    .emoji{
+        p{
+            justify-content: center;
+        }
+    }
+    .design-card{
+        width: 400px;
+    }
+    .card-line{
+        h1{
+            margin-right: 0;
+            font-size: 60px;
+        }
+        .aik-or-line {
+            font-size: 60px !important;
+        }
+    }
+    .second-page{
+        flex-direction: column;
+    }
+    .first-content{
+        h2{
+            font-size: 45px;
+        }
+    }
+   .top3{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   }
+   .Price{
+    justify-content: center;
+   }
+   .main-num{
+    margin-inline: auto;
+   }
+   .one-card{
+    
+    margin-inline: auto;
+   }
+   .left-top{
+    width: 70%;
+   }
+}
+@media(max-width:768px){
+    .design{
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-content{
+        h1{
+            font-size: 47px;
+        }
+    }
+    .center-mid{
+        width: 100%;
+        h1{
+            font-size: 40px;
+        }
+    }
+    .background{
+        grid-template-columns: repeat(1,275px);
+    }
+    .card-line {
+        .aik-or-line {
+            font-size: 40px !important;
+        }}
+        .para{
+            width: 100%;
+            h1{
+                font-size: 35px;
+            }
+        }
+        .emoji-text-heading{
+            width: 100%;
+            h1{
+                font-size: 40px;
+            }
+        }
+        .card-line{
+            h1{
+                font-size: 40px;
+            }
+        }
+    .left-top{
+        width: 100%;
+    }
+    .one-card{
+        width: 100%;
+        height: 580px;
+    }
+    .Add{
+        padding-inline: 80px;
+    }
+    .head-texting{
+        h1{
+            font-size: 36px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    .Navbar{
+        display: block;
+    }
+    .top-list{
+        display: none;
+                
+        position: absolute;
+        right: 0;
+        /* top: 23px; */
+        bottom: -41px;
+        padding: 20px;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+
+    }
+     .active{
+        display: block;
+     }
+}
+@media(max-width:540px){
+    .first-content {
+        h1{
+            font-size: 28px;
+        }
+        h4 {
+            font-size: 18px;
+        }
+    }
+    .shopnow{
+        font-size: 11px;
+    }
+    .Contactus{
+        font-size: 11px;
+    }
+    .center-mid{
+        h1{
+            font-size: 35px;
+        }
+    }
+    .design-text{
+        padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 170px;
+    h4{
+        font-size: 25px;
+    }
+    p{
+        font-size: 10px;
+    }
+    }
+    .design-card{
+        width: 253px;
+    }
+    .add-to-cart{
+        font-size: 10px;
+    padding-inline: 35px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    }
+    .mick{
+               bottom: 37px;
+    width: 87px;
+    height: 176px;
+
+    }
+    .images{
+        width: 33%;
+    }
+    .Email{
+        width: 236px;
+    }
+    .subs{
+        width: 30%;
+    }
+    .images{
+        width: 33%;
+    }
+    .arrow2{
+        display: none;
+    }
+    .para{
+        text-align: center;
+        h1{
+            font-size: 24px;
+        }
+        p{
+            font-size: 12px;
+            justify-content: center;
+        }
+    }
+    .container{
+        padding-inline: 15px;
+    }
+    .card-line{
+        h1{
+            font-size: 34px;
+        }
+    }
+    .card-line{
+         .aik-or-line {
+            font-size: 30px !important;
+        }
+    }
+    .emoji-text-heading{
+        h1{
+            font-size: 34px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    .icon-text{
+        p{
+                    font-weight: 600;
+        font-size: 12px;
+        }
+    }
+    .heading-list{
+        text-align: center;
+    }
+    .head-text-list{
+        text-align: center;
+    }
+        .center-mid {
+        h1 {
+            font-size: 30px;
+        }
+    }
+    .button2{
+        flex-direction: column;
+    }
+    .first-content{
+        h2{
+            font-size: 25px;
+        }
+        p{
+        font-size: 12px;
+        }
+        h4{
+            font-size: 15px;
+        }
+    }
+    .left-second-page{
+        h4{
+            font-size: 13px;
+        }
+    }
+    .right-second-page{
+        h4{
+            font-size: 13px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    .numbers{
+        p{
+            font-size: 20px;
+            padding-inline: 15px;
+        }
+    }
+    .sort{
+        padding-block: 5px;
+    }
+    .one-card{
+        height: 340px;
+    }
+}
+
